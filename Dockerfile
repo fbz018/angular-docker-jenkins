@@ -1,4 +1,4 @@
 
 # stage 2
-FROM nginx:alpine
+FROM nginx
 COPY /dist/angular-docker-jenkins /usr/share/nginx/html
